@@ -1,0 +1,136 @@
+body{
+    background-color: #010020;
+    margin:0px;
+    width:100%;
+    display: flex;
+    font-family:sans-serif;
+    scroll-margin-block: ;
+}
+header{
+    height:100px;
+    display: flex;
+    width:100%;
+    position: fixed;
+}
+
+.logocontainer{
+    width:40%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20px;
+
+}
+
+.menu{
+    width:60%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 150px;
+    margin-left: 300px;
+    
+    
+    
+}
+
+.logo{
+    display:flex;
+    width: 40%;
+    height: 50%;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:white;
+    margin-right:-150px;
+}
+
+#signup{
+    color:#168965;
+    font-weight: bold;
+}
+
+main{
+    margin-top: 100px;
+    height:652px;
+    display: flex;
+    width:100%;
+    align-items: center;
+    position: fixed;
+    
+}
+
+.textcentral{
+    display:flex;
+    flex-direction: column;
+    width:40%;
+    align-items: flex-start;
+    height:90%;
+    margin-left: 200px;
+    margin-top:50px;
+}
+
+.imatgecentralcontainer{
+    width:60%;
+    height: 100%;
+}
+
+.imatgecentral{
+    height:400px;
+    width:600px;
+    margin-top: 30px;
+
+}
+
+h1{
+    color: white;
+    font-size:50px;
+}
+
+h3{
+    margin-top: -15px;
+    color:#565470;
+    font-size: 14px;
+}
+
+.midbutton{
+    text-decoration: none;
+    border-style: solid;
+    border-radius:45px;
+    padding:10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #00f281;
+    border-color: #00f281;
+    color:white;
+
+}
+section{
+    display: flex;
+    width:100%;
+    margin-top:560px;
+    height:130px;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    color:white;
+    font-size: 25px;
+}
+
+.endbutton{
+    text-decoration: none;
+    border-style: solid;
+    border-radius:45px;
+    padding:10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color:white;
+    color: #010020;
+    font-weight: bold;
+}
