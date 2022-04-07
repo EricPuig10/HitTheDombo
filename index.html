@@ -11,19 +11,23 @@
 
 
 <body>
-    <div class="container">
+    
         <header>
             <div class="logocontainer">
             <img class="logo" src="./images/logo.png" alt="logo">
+            
 
             </div>
+
+            <div class="buttonmobilecontainer"><a href="button6" class="buttonmobile">M</a></div>
 
             <div class="menu">
             <a href="button1" class="buttons">Premium</a>
             <a href="button2" class="buttons">Help</a>
             <a href="button3" class="buttons">Download</a>
             <a href="button4" class="buttons" id="signup">Sign Up</a>
-            <a href="button5" class="buttons">Log in</a>
+            <a href="button5" class="buttons" id="login">Log in</a>
+            
  
 
 
@@ -41,15 +45,16 @@
 
             <div class="imatgecentralcontainer">
                 <img src="./images/drumkit.png" class="imatgecentral">
-                <button class="drum" src="./sounds/bombo (1).wav" id="drum" onclick="MyFunction"></button>
-                <button class="drum2" src="./sounds/bombo (1).wav"></button>
-                <button class="drum3" src="./sounds/bombo (1).wav"></button>
-                <button class="drum4" src="./sounds/bombo (1).wav"></button>
-                <button class="drum5" src="./sounds/bombo (1).wav"></button>
-                <button class="drum6" src="./sounds/bombo (1).wav"></button>
-                <button class="drum7" src="./sounds/bombo (1).wav"></button>
-                <button class="drum8" src="./sounds/bombo (1).wav"></button>
-            
+                <div class="drums">
+                <button class="drum" src="./sounds/bombo (1).wav" onclick="bombo.play()"></button>
+                <button class="drum2" src="./sounds/bombo (1).wav" onclick="crash.play()"></button>
+                <button class="drum3" src="./sounds/bombo (1).wav" onclick="hithat.play()"></button>
+                <button class="drum4" src="./sounds/bombo (1).wav" onclick="redoblante.play()"></button>
+                <button class="drum5" src="./sounds/bombo (1).wav" onclick="tom1.play()"></button>
+                <button class="drum6" src="./sounds/bombo (1).wav" onclick="tom2.play()"></button>
+                <button class="drum7" src="./sounds/bombo (1).wav" onclick="tom3.play()"></button>
+                <button class="drum8" src="./sounds/bombo (1).wav" onclick="tom4.play()"></button>
+                </div>
 
 
             </div>
@@ -68,6 +73,6 @@
 
 
 
-    </div>    
+        
 </body>
 </html>

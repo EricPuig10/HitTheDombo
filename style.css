@@ -1,23 +1,26 @@
-.container{
-    width:100%;
-    max-width:100%;
-    margin:0;
-    overflow: hidden;
-    
-}
+
 body{
     background-color: #010020;
     margin:0px;
     width:100%;
+    max-width: 100%;
     display: flex;
     font-family:sans-serif;
-    position: relative;
+    /*border-color: blue;
+    border-style: solid;*/
+    overflow-y: hidden;
+    overflow-x: hidden;
+
 
 }
 header{
     height:100px;
     display: flex;
     width:100%;
+    /*border-color: pink;
+    border-style: solid;*/
+    justify-content: center;
+    position: fixed;
     
 }
 
@@ -26,20 +29,21 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -20px;
+    /*border-color: orange;
+    border-style: solid;*/
+
 
 }
 
 .menu{
     width:60%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-right: 150px;
     margin-left: 300px;
+    /*border-color: red;
+    border-style: solid;*/
    
-    
-    
-    
 }
 
 .logo{
@@ -56,11 +60,10 @@ header{
     align-items: center;
     text-decoration: none;
     color:white;
-    width:100%;
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left:40px;
-    margin-right: 0;
+    margin-right: 0px;
 }
     
 
@@ -69,121 +72,171 @@ header{
     font-weight: bold;
     border-right-style: solid;
     border-color:white;
+    padding-right: 30px;
     
+}
+#login{
+    margin-left: 0px;
+}
+
+.buttonmobile{
+    display: none;
+    text-decoration: none;
+    border:#00f281;
+    background-color: #00f281;
+    border-style: solid;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left:0px;
+    margin-right: 0px;
+    color: #00f281;
 }
 
 main{
     margin-top: 100px;
-    height:452px;
+    padding-top: 25px;
+    height:652px;
     display: flex;
     width:100%;
     align-items: center;
-    
+    /*border-color: green;
+    border-style: solid;*/
+    position: fixed;
+   
+
     
 }
 
 .textcentral{
     display:flex;
     flex-direction: column;
-    width:40%;
+    width:30%;
     align-items: flex-start;
-    height:600px;
-    margin-left: 200px;
- 
+    height:300px;
+    /*border-color: white;
+    border-style: solid;*/
+    padding-left: 220px;
+    margin-top: -300px;
+    
 }
 
 .imatgecentralcontainer{
     display: flex;
-    width:70%;
-    height: 700px;
+    width:600px;
+    height: 450px;
+    /*border-color: black;
+    border-style: solid;*/
 
+    overflow: hidden;
+    margin-top: -230px;
+    position: relative;
+
+  
 }
 
 .imatgecentral{
-    height:65%;
-    width:70%;
-    margin-top: 30px;
-    position: relative;
+    display: flex;
+    height:100%;
+    width:100%;
+    max-width: 100%;
+
+
+
+
+
 
 }
+
+.drums {
+    display: flex;
+    height:100%;
+    width:100%;
+    position:absolute;
+    /*border-color: aqua;
+    border-style: solid;*/
+  
+
+}
+
 
 .drum {
     height: 98px;
     width:92px;
     border-radius: 50%;
     position: absolute;
-    top:135px;
-    left:698px;
+    top:27px;
+    left:12px;
     background-color: black;
 }
 
 .drum2{
-    height: 98px;
+    height: 100px;
     width:92px;
     border-radius: 50%;
     position: absolute;
-    top:135px;
-    left:1173px;
+    top:25px;
+    left:492px;
     background-color: black;
 }
 
 .drum3{
-    height: 98px;
+    height: 100px;
     width:92px;
     border-radius: 50%;
     position: absolute;
-    top:238px;
-    left:1126px;
+    top:127px;
+    left: 56px;
     background-color: black;
 }
 
 .drum4{
-    height: 98px;
+    height: 100px;
     width:92px;
     border-radius: 50%;
     position: absolute;
-    top:238px;
-    left:740px;
+    top:128px;
+    left:445px;
     background-color: black;
 }
 
 .drum5{
-    height: 136px;
-    width:122px;
+    height: 142px;
+    width:125px;
     border-radius: 50%;
     position: absolute;
-    top:178px;
-    left:848px;
+    top:68px;
+    left:164px;
     background-color: black;
 }
 
 .drum6{
-    height: 136px;
-    width:122px;
+    height: 142px;
+    width:125px;
     border-radius: 50%;
     position: absolute;
-    top:178px;
-    left:990px;
+    top:68px;
+    left:307px;
     background-color: black;
 }
 
 .drum7{
-    height: 136px;
-    width:122px;
+    height: 138px;
+    width:126px;
     border-radius: 50%;
     position: absolute;
-    top:348px;
-    left:778px;
+    top:235px;
+    left:92px;
     background-color: black;
 }
 
 .drum8{
-    height: 136px;
-    width:122px;
+    height: 138px;
+    width:126px;
     border-radius: 50%;
     position: absolute;
-    top:348px;
-    left:1064px;
+    top:235px;
+    left:381px;
     background-color: black;
 }
 
@@ -216,7 +269,9 @@ section{
     width:100%;
     flex-direction: column;
     align-items: center;
-    margin-top: -100px;
+    margin-top:552px;
+    /*border-color: red;
+    border-style: solid;*/
 
 
 
@@ -239,3 +294,189 @@ h2{
     font-weight: bold;
 }
 
+
+/*MEDIA QUERIES!*/
+
+@media only screen and (max-width: 415px) {
+    
+    .menu{
+        display: none;
+    }
+
+    header{
+        display: flex;
+        position: fixed;
+
+
+    }
+
+    .logocontainer{
+        justify-content: flex-end;
+        margin-left:100px;
+        height: 100px;
+
+    }
+    .textcentral
+    {
+        display:flex;
+        margin-top: 500px;
+        margin-left: -140px;
+        width:100%
+
+        
+    }
+
+    h1{
+        font-size:40px;
+    }
+
+    h3{
+        font-size:12px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .imatgecentralcontainer{
+        display: flex;
+        height:390px;
+        width:380px;
+        position: relative;
+        overflow: hidden;
+    }
+    .imatgecentral{
+        display: flex;
+        height: 100%;
+        width:100%;
+        margin-left: 10px;
+
+
+    }
+
+    .drums {
+        height:100%;
+        width:100%;
+        position:absolute;
+        /*border-color: aqua;
+        border-style: solid;*/
+      
+    
+    }
+    
+    
+    .drum {
+        height: 82px;
+        width:58px;
+        border-radius: 50%;
+        position: absolute;
+        top:18px;
+        left:12px;
+        background-color: black;
+    }
+    
+    .drum2{
+        height: 82px;
+        width:58px;
+        border-radius: 50%;
+        position: absolute;
+        top:18px;
+        left: 298px;
+        background-color: black;
+    }
+    
+    .drum3{
+        height: 82px;
+        width:58px;
+        border-radius: 50%;
+        position: absolute;
+        top:100px;
+        left: 36px;
+        background-color: black;
+    }
+    
+    .drum4{
+        height: 82px;
+        width:58px;
+        border-radius: 50%;
+        position: absolute;
+        top:100px;
+        left:271px;
+        background-color: black;
+    }
+    
+    .drum5{
+        height: 114px;
+        width:80px;
+        border-radius: 50%;
+        position: absolute;
+        top:52px;
+        left:102px;
+        background-color: black;
+    }
+    
+    .drum6{
+        height: 114px;
+        width:78px;
+        border-radius: 50%;
+        position: absolute;
+        top:53px;
+        left:186px;
+        background-color: black;
+    }
+    
+    .drum7{
+        height: 114px;
+        width:78px;
+        border-radius: 50%;
+        position: absolute;
+        top:186px;
+        left:58px;
+        background-color: black;
+    }
+    
+    .drum8{
+        height: 114px;
+        width:78px;
+        border-radius: 50%;
+        position: absolute;
+        top:186px;
+        left:231px;
+        background-color: black;
+    }
+    
+    .buttonmobile{
+        display: flex;
+        text-decoration: none;
+        border:#00f281;
+        background-color: #00f281;
+        border-style: solid;
+        border-radius: 50px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        margin-left:0px;
+        margin-right: 0px;
+        color: #00f281;
+        height: 20px;
+        width: 40px;
+
+    }
+
+    .buttonmobilecontainer{
+        margin-left: 70px;
+        margin-right: 10px;
+        height: 60px;
+        width: 100px;
+        display: flex;
+
+
+
+
+    }
+    
+    
+
+    section{
+        display: none;
+    }
+
+ 
+  }
