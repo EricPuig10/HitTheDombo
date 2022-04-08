@@ -268,4 +268,65 @@ h2{
     margin-top: -2%;
 } 
  
+@media only screen and (max-width: 400px) {
+    .menu{display:none}
 
+    .logocontainer{
+        margin-top: 20%;
+        height: 100%;
+        width: 100%;
+   
+    }
+
+    body{
+    height: 99vh;}
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+        width:225vw;
+        margin-left: 5%;
+        height: 80%;
+
+    }
+
+
+ 
+    .textcentral{
+        
+        width:60%;
+        margin-left: -17%;
+
+        
+    }
+
+    h1{
+        font-size: 3em;
+    }
+
+    h3{
+        font-size:0.8em;
+        margin-bottom: 10%;
+    }
+
+    .midbutton{
+        margin-top:30%;
+        text-decoration: none;
+        border-style: solid;
+        border-radius:2vw;
+        padding:1.8%;
+        padding-right: 6%;
+        padding-left: 6%;
+        background-color: #00f482;
+        border-color: #00f482;
+        color:white;
+        margin-left: 40%;
+        opacity: 80%;
+        
+    
+    }
+    section{display: none;
+}
+
+
+
+  }
