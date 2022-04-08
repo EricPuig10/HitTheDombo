@@ -269,6 +269,8 @@ h2{
 } 
  
 @media only screen and (max-width: 400px) {
+    
+
     .menu{display:none}
 
     .logocontainer{
@@ -279,7 +281,9 @@ h2{
     }
 
     body{
-    height: 99vh;}
+    height: 99vh;
+overflow-y: hidden;
+overflow-x: hidden;}
     main{
         display: flex;
         flex-direction: column-reverse;
