@@ -7,6 +7,7 @@ Primer projecte amb alguna part interactiva que consistia en apretar botons d'un
 <li>nboyaroca</li> 
 <li>JoelBlasi</li>
 <li>DavidMG00 </li>
+
 ## Mockup
 
 ![image](https://user-images.githubusercontent.com/102654586/166194753-aea5a1e9-a73a-432c-abf2-8eee0d8db8bb.png)
