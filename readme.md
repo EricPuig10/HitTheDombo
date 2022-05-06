@@ -7,7 +7,7 @@ https://ericpuig10.github.io/HitTheDombo/
 ## 📜 BRIEFING
 This is an application that allows you to hit the dombo and preview its sounds. 
 
-## Equip
+## 👥 TEAM
 <li>nboyaroca</li> 
 <li>JoelBlasi</li>
 <li>DavidMG00 </li>
