@@ -17,14 +17,17 @@ This is an application that allows you to hit the dombo and preview its sounds.
 - CSS 3
 - JS ES6  VANILLA
 
+## ✅ OBJECTIVES
+Design the responsive website of the drum without focus in the usings of the diferrents buttons of the navbar.
+Reproduce the sounds whent the drum is clicked.
+Use mediaqueries.
+
 ## ⚙️ TECHNIQUES USED
 - Responsive Design.
 - Modularity.
 - CSS variables and import.
 
-## ✅ OBJECTIVES
 
-Reproduce the sounds whent the drum is clicked.
 
 ##  👁️‍🗨️ SCREENSHOTS
 
